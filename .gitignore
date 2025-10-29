@@ -1,0 +1,14 @@
+# Bỏ qua thư mục chứa các thư viện đã cài đặt
+node_modules
+
+# Bỏ qua file biến môi trường, không bao giờ đẩy file này lên Git
+.env
+
+# Các file log
+logs
+*.log
+npm-debug.log*
+
+# Các file hệ điều hành
+.DS_Store
+Thumbs.db
